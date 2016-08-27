@@ -1,0 +1,12 @@
+{
+  "name": "comments",
+  "version": "1.0.0",
+  "description": "Comments feed",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "private": true,
+  "author": "Liad Yosef",
+  "license": "MIT"
+}
