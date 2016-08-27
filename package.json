@@ -8,5 +8,9 @@
   },
   "private": true,
   "author": "Liad Yosef",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liady/comments"
+  },
   "license": "MIT"
 }
