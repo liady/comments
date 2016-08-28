@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 })); 
 
-var port = process.env.PORT || 8180;
+var port = process.env.PORT || 8081;
 
 app.use('/', express.static(path.join(__dirname, '../dist')))
 
