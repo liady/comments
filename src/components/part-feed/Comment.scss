@@ -1,0 +1,42 @@
+@import "variables.scss";
+
+.main {
+    height: 60px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.pending {
+    opacity: 0.25;
+}
+
+.image {
+    border-radius: 4px;
+    height: 60px;
+    width: 60px;
+}
+
+.imageContainer {
+    flex: none;
+}
+
+.email, .message {
+    padding: 5px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.email {
+    font-weight: bold;
+}
+
+.message {
+    color: $gray;
+    font-size: 13px;
+    padding-top: 0;
+    flex: 1;
+}
+
+.details {
+    padding-left: 10px;
+}

@@ -1,0 +1,43 @@
+@import "variables.scss";
+
+.main {
+    flex: 1;
+    padding: $inner-padding;
+    cursor: default;
+}
+
+.noResults {
+    color: $light-gray;
+    padding: $inner-padding;
+}
+.noComments {
+    color: $light-gray;
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.feed {
+    composes: fancy-scroll;
+    height: 100%;
+    min-height: 0;
+    overflow-y: auto;
+    & li {
+        margin-top: 10px;
+        &:first-of-type {
+            margin-top:0;
+        }
+    }
+}
+
+.clear {
+    align-self: flex-end;
+    padding-top: 10px;
+    &:hover{
+        text-decoration: underline;
+    }
+    cursor: pointer;
+    font-size: 12px;
+    color: $light-gray;
+}

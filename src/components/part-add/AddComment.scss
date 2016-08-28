@@ -1,0 +1,41 @@
+@import "variables.scss";
+
+.main {
+    flex: none;
+    background: $lighter-gray;
+    padding: $inner-padding;
+    box-sizing: border-box;
+    width: 300px;
+    & > *:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+.email, .message {
+    padding: 10px;
+}
+
+.invalid {
+    border-color: red;
+}
+
+.message {
+    composes: fancy-scroll;
+    height: 80px;
+    resize: vertical;
+    overflow: auto;
+    :global(.wide) & {
+        flex: 1;
+    }
+}
+
+.submit {
+    color: #fff;
+    align-self: flex-end;
+    text-transform: uppercase;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: #269abc;
+    cursor: pointer;
+}

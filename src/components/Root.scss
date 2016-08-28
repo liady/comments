@@ -1,0 +1,12 @@
+@import "variables.scss";
+
+.main {
+    background:#fff;
+    width: 300px;
+    border: 1px solid $light-gray;
+    flex: 1;
+    :global(.wide) &{
+        width: 800px;
+        flex-direction: row !important;
+    }
+}
