@@ -1,6 +1,6 @@
 # Comments Feed
 React app that generates comments feed, with the ability to add comment, filter comments and clear.<br/>
-[Demo here]().
+[Demo here](https://panda-comments.herokuapp.com/).
 
 # Quick Usage
 ## Dev Server
