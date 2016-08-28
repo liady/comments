@@ -1,6 +1,6 @@
 # Comments Feed
 React app that generates comments feed, with the ability to add comment, filter comments and clear.<br/>
-[Demo]()
+[Demo]().
 
 # Quick Usage
 ## Dev Server
@@ -18,11 +18,11 @@ $ npm run start-prod
 
 # Detailed Description
 This app uses:
- - [React](https://facebook.github.io/react/) - As the view framework
- - [Mobx](https://github.com/mobxjs/mobx) - As the state management framework
- - [Webpack](https://webpack.github.io/) - As the build system
- - [Css Modules](https://github.com/css-modules/css-modules) - For styling components
- - [Express](https://expressjs.com/) - As the backend framework
+ - [React](https://facebook.github.io/react/) - As the view framework.
+ - [Mobx](https://github.com/mobxjs/mobx) - As the state management framework.
+ - [Webpack](https://webpack.github.io/) - As the build system.
+ - [Css Modules](https://github.com/css-modules/css-modules) - For styling components.
+ - [Express](https://expressjs.com/) - As the backend framework.
 
 # License
 MIT
