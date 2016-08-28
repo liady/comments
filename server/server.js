@@ -12,6 +12,8 @@ app.use(bodyParser.urlencoded({
   extended: true
 })); 
 
+var port = process.env.PORT || 8180;
+
 app.use('/', express.static(path.join(__dirname, '../dist')))
 
 app.get('/comment', function(req, res) {
@@ -29,4 +31,4 @@ app.delete('/comment', function(req, res) {
     res.send(db);
 })
 
-app.listen(8081);
+app.listen(port);
