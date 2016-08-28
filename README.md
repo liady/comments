@@ -1,6 +1,6 @@
 # Comments Feed
 React app that generates comments feed, with the ability to add comment, filter comments and clear.<br/>
-[Demo]().
+[Demo here]().
 
 # Quick Usage
 ## Dev Server
