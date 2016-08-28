@@ -6,8 +6,8 @@ export function addComment(comment) {
 
 export function getAllComments() {
     return Promise.resolve({data: [
-        { email: 'a@test.com', message: 'New Comment' },
-        { email: 'b@test.com', message: 'My Comment' },
+        { email: 'first@test.com', message: 'New Comment' },
+        { email: 'second@test.com', message: 'My Comment' },
         { email: 'we@nowhere.com', message: '3rd Comment' }
     ]});
 }
