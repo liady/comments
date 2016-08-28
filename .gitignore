@@ -1,3 +1,6 @@
+# Build Artifacts
+dist/js
+
 # Logs
 logs
 *.log
