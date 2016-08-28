@@ -4,7 +4,7 @@
   "description": "Comments feed",
   "main": "index.js",
   "scripts": {
-    "start-prod": "npm run build && npm run start",
+    "start-prod": "npm run build-prod && npm run start",
     "start-dev": "webpack-dev-server --inline --content-base dist/ --port 8081",
     "build-prod": "cross-env NODE_ENV=production webpack -p",
     "start": "node server/server.js",
